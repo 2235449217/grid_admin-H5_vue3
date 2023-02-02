@@ -1,0 +1,256 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/detail/healthDetail",
+			"style": {
+				"navigationBarTitleText": "健康码管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/placeDetail",
+			"style": {
+				"navigationBarTitleText": "场所码管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/nucleinDetail",
+			"style": {
+				"navigationBarTitleText": "核酸信息管理"
+			}
+		},
+		{
+			"path": "pages/detail/keypersonnelDetail",
+			"style": {
+				"navigationBarTitleText": "重点人员管理",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		},
+		{
+			"path": "pages/detail/keyplaceDetail",
+			"style": {
+				"navigationBarTitleText": "重点场所管理",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		},
+		{
+			"path": "pages/detail/riskpersonnelDetail",
+			"style": {
+				"navigationBarTitleText": "风险人员",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		},
+		{
+			"path": "pages/detail/enterpersonnelDetail",
+			"style": {
+				"navigationBarTitleText": "入豫人员管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/riskwarnDetail",
+			"style": {
+				"navigationBarTitleText": "风险预警",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/areacheckDetail",
+			"style": {
+				"navigationBarTitleText": "区域协查",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/statisticsDetail",
+			"style": {
+				"navigationBarTitleText": "数据统计",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/changepwd/changepwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 扫码记录
+		{
+			"path": "pages/detail/operation/scanRecord",
+			"style": {
+				"navigationBarTitleText": "扫码记录",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		}
+		// 入豫人员
+		, {
+			"path": "pages/detail/operation/intoDetail",
+			"style": {
+				"navigationBarTitleText": "入豫人员",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+
+			}
+		},
+		// 核酸记录
+		{
+			"path": "pages/detail/operation/acidRecord",
+			"style": {
+				"navigationBarTitleText": "核酸记录",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 150
+			}
+		},
+		{
+			"path": "pages/detail/operation/detailCheack",
+			"style": {
+				"navigationBarTitleText": "查看详情"
+			}
+		},
+		{
+			"path": "pages/detail/operation/checkDetail",
+			"style": {
+				"navigationBarTitleText": "查看详情"
+			}
+		},
+		// 健康码管理
+		{
+			"path": "pages/detail/operation/testCheck/healthCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 场所码管理
+		{
+			"path": "pages/detail/operation/testCheck/placeCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 核酸信息管理
+		{
+			"path": "pages/detail/operation/testCheck/nucleinCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 重点人员管理
+		{
+			"path": "pages/detail/operation/testCheck/keypersonnelCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 重点场所管理
+		{
+			"path": "pages/detail/operation/testCheck/keyplaceCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 风险人员
+		{
+			"path": "pages/detail/operation/testCheck/riskpersonnelCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 入豫人员管理
+		{
+			"path": "pages/detail/operation/testCheck/enterpersonnelCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 风险预警
+		{
+			"path": "pages/detail/operation/testCheck/riskwarnCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		// 区域核查
+		{
+			"path": "pages/detail/operation/testCheck/areacheckCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+
+	"tabBar": {
+		"color": "#222222",
+		"selectedColor": "#3298e6",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/notice/notice",
+				"iconPath": "static/tabbar/notice.png",
+				"selectedIconPath": "static/tabbar/notice_active.png",
+				"text": "通知"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

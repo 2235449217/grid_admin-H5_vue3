@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dingtalk-jsapi": "^2.15.1",
+    "jsencrypt": "^3.2.1",
+    "pubsub-js": "^1.9.4",
+    "vuex": "^4.0.2"
+  }
+}
